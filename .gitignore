@@ -1,0 +1,37 @@
+# === Terraform files ===
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfplan
+*.backup
+*.log
+
+# === Sensitive files ===
+# Terraform Cloud API tokens (if used)
+.terraformrc
+terraform.rc
+
+# === IDE/Editor Files ===
+# VS Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+
+# === OS/Environment Files ===
+.DS_Store
+Thumbs.db
+
+# === Temporary Files ===
+*.swp
+*.swo
+*.bak
+*.tmp
