@@ -26,16 +26,16 @@ This Terraform project creates an automated AWS Access Key rotator that disables
 ├── backend.tf                           # Terraform backend configuration
 ├── provider.tf                          # AWS provider configuration
 ├── variables.tf                         # Root-level variables
-├── main.tf                             # Module instantiation
-├── outputs.tf                          # Root-level outputs
-├── terraform.tfvars.example            # Example configuration
-├── README.md                           # This file
+├── main.tf                              # Module instantiation
+├── outputs.tf                           # Root-level outputs
+├── terraform.tfvars.example             # Example configuration
+├── README.md                            # This file
 └── modules/
     └── access-key-rotator/
-        ├── main.tf                     # Module resources
-        ├── variables.tf                # Module variables
-        ├── outputs.tf                  # Module outputs
-        └── lambda_function.py          # Lambda function code
+        ├── main.tf                      # Module resources
+        ├── variables.tf                 # Module variables
+        ├── outputs.tf                   # Module outputs
+        └── lambda_function.py           # Lambda function code
 ```
 
 ## Prerequisites
